@@ -115,20 +115,158 @@
 </section>
 
 <section class="section" id="specs">
-  <div class="container feature">
-    <div>
+  <div class="container">
+    <div class="section-head">
       <span class="eyebrow">Specifications</span>
       <h2>Engineered or laminate, with underlay included.</h2>
       <p>Both engineered and laminate ranges are supplied with matching underlay and fitting guidance, so a site can go from delivery to install without sourcing extra materials.</p>
-      <ul class="spec-list">
-        <li><span>Plank thickness</span><span>8 to 12mm laminate, or 14mm engineered</span></li>
-        <li><span>Finish</span><span>Matte, satin, hand-scraped texture</span></li>
-        <li><span>Warranty</span><span>Up to 15 years (product dependent)</span></li>
-        <li><span>Underlay</span><span>Included on request</span></li>
-        <li><span>Lead time</span><span>10 to 14 working days (standard)</span></li>
-      </ul>
     </div>
-    <div class="swatch-block photo" style="background-image:url('assets/img/products/wooden-flooring.jpg')"></div>
+    <div class="catalog-layout">
+      <aside class="filter-sidebar" id="filter-sidebar" aria-label="Filter products">
+        <div class="filter-sidebar-head">
+          <h3>Filter &amp; Search</h3>
+          <div class="filter-sidebar-head-actions">
+            <button type="button" class="filter-reset" id="filter-reset">Reset</button>
+            <button type="button" class="filter-sidebar-close" id="filter-sidebar-close" aria-label="Close filters">&times;</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label for="pf-search" class="filter-group-label">Search</label>
+          <input type="search" id="pf-search" class="filter-search" placeholder="Search by name or SKU">
+        </div>
+        <div class="filter-group" data-facet="type">
+          <span class="filter-group-label">Product Type</span>
+          <div class="filter-options" data-facet-options="type"></div>
+        </div>
+        <div class="filter-group" data-facet="material">
+          <span class="filter-group-label">Material</span>
+          <div class="filter-options" data-facet-options="material"></div>
+        </div>
+        <div class="filter-group" data-facet="finish">
+          <span class="filter-group-label">Finish</span>
+          <div class="filter-options" data-facet-options="finish"></div>
+        </div>
+        <div class="filter-group" data-facet="color">
+          <span class="filter-group-label">Colour</span>
+          <div class="filter-options" data-facet-options="color"></div>
+        </div>
+        <div class="filter-group" data-facet="application">
+          <span class="filter-group-label">Application</span>
+          <div class="filter-options" data-facet-options="application"></div>
+        </div>
+        <p class="filter-empty-note" id="filter-empty-note" hidden>No products match the selected filters. <button type="button" id="filter-empty-reset">Clear filters</button></p>
+      </aside>
+      <div class="catalog-results">
+        <div class="filter-toggle-bar">
+          <button type="button" class="btn btn-ghost filter-toggle-btn" id="filter-toggle-btn" aria-expanded="false" aria-controls="filter-sidebar">Filter &amp; Search</button>
+          <span class="filter-result-count" id="filter-result-count"></span>
+        </div>
+        <div class="product-card-grid">
+      <article class="product-card" data-sku="SD-WFL-401" data-name="Engineered Oak Plank" data-type="Wooden Flooring" data-material="Engineered wood (oak veneer)" data-finish="Matte UV lacquer" data-color="Brown" data-application="Indoor">
+        <div class="pc-thumb-wrap">
+          <button type="button" class="pc-thumb" style="background-image:url('assets/img/products/wooden-flooring.jpg')" aria-label="Zoom Engineered Oak Plank image" data-zoom-img="assets/img/products/wooden-flooring.jpg" data-zoom-name="Engineered Oak Plank">
+            <span class="pc-zoom-icon" aria-hidden="true">&#10530;</span>
+          </button>
+        </div>
+        <div class="pc-body">
+          <div class="pc-head">
+            <h3>Engineered Oak Plank</h3>
+            <span class="pc-sku">SD-WFL-401</span>
+          </div>
+          <ul class="pc-specs">
+            <li><span>Material</span><span>Engineered wood (oak veneer)</span></li>
+            <li><span>Colour</span><span>Natural honey oak</span></li>
+            <li><span>Thickness</span><span>14 mm (3 mm wear layer)</span></li>
+            <li><span>Dimensions</span><span>190 x 1900 mm plank</span></li>
+            <li><span>Finish</span><span>Matte UV lacquer</span></li>
+          </ul>
+          <ul class="pc-metrics">
+            <li><span>Stock</span><span class="pc-stock in-stock">In Stock</span></li>
+            <li><span>MOQ</span><span>100 sqm</span></li>
+            <li><span>Lead time</span><span>10–14 working days</span></li>
+            <li><span>Warranty</span><span>15 years (structural)</span></li>
+          </ul>
+          <div class="pc-actions">
+            <a class="btn btn-ghost pc-sample-btn" target="_blank" rel="noopener" href="https://wa.me/918368121845?text=Hi%2C%20I%27d%20like%20to%20request%20a%20sample%20of%20Engineered%20Oak%20Plank%20%28SD-WFL-401%29.%20My%20project%20is%20located%20in%20%5BCity%5D%2C%20and%20the%20approximate%20area%20is%20%5BArea%20sq%20ft%5D.">Request a Sample</a>
+            <label class="pc-enquiry-toggle">
+              <input type="checkbox" class="pc-enquiry-checkbox" data-sku="SD-WFL-401" data-name="Engineered Oak Plank">
+              <span class="pc-toggle-box" aria-hidden="true"></span>
+              <span class="pc-toggle-label">Add to Enquiry</span>
+            </label>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-sku="SD-WFL-402" data-name="Laminate Plank — Hand-Scraped Walnut" data-type="Wooden Flooring" data-material="High-density laminate" data-finish="Hand-scraped texture" data-color="Brown" data-application="Indoor">
+        <div class="pc-thumb-wrap">
+          <button type="button" class="pc-thumb" style="background-image:url('assets/img/products/wooden-flooring.jpg')" aria-label="Zoom Laminate Plank — Hand-Scraped Walnut image" data-zoom-img="assets/img/products/wooden-flooring.jpg" data-zoom-name="Laminate Plank — Hand-Scraped Walnut">
+            <span class="pc-zoom-icon" aria-hidden="true">&#10530;</span>
+          </button>
+        </div>
+        <div class="pc-body">
+          <div class="pc-head">
+            <h3>Laminate Plank — Hand-Scraped Walnut</h3>
+            <span class="pc-sku">SD-WFL-402</span>
+          </div>
+          <ul class="pc-specs">
+            <li><span>Material</span><span>High-density laminate</span></li>
+            <li><span>Colour</span><span>Dark walnut</span></li>
+            <li><span>Thickness</span><span>10 mm</span></li>
+            <li><span>Dimensions</span><span>192 x 1288 mm plank</span></li>
+            <li><span>Finish</span><span>Hand-scraped texture</span></li>
+          </ul>
+          <ul class="pc-metrics">
+            <li><span>Stock</span><span class="pc-stock in-stock">In Stock</span></li>
+            <li><span>MOQ</span><span>100 sqm</span></li>
+            <li><span>Lead time</span><span>7–10 working days</span></li>
+            <li><span>Warranty</span><span>10 years</span></li>
+          </ul>
+          <div class="pc-actions">
+            <a class="btn btn-ghost pc-sample-btn" target="_blank" rel="noopener" href="https://wa.me/918368121845?text=Hi%2C%20I%27d%20like%20to%20request%20a%20sample%20of%20Laminate%20Plank%20%E2%80%94%20Hand-Scraped%20Walnut%20%28SD-WFL-402%29.%20My%20project%20is%20located%20in%20%5BCity%5D%2C%20and%20the%20approximate%20area%20is%20%5BArea%20sq%20ft%5D.">Request a Sample</a>
+            <label class="pc-enquiry-toggle">
+              <input type="checkbox" class="pc-enquiry-checkbox" data-sku="SD-WFL-402" data-name="Laminate Plank — Hand-Scraped Walnut">
+              <span class="pc-toggle-box" aria-hidden="true"></span>
+              <span class="pc-toggle-label">Add to Enquiry</span>
+            </label>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-sku="SD-WFL-403" data-name="Laminate Plank — Grey Ash" data-type="Wooden Flooring" data-material="High-density laminate" data-finish="Matte texture" data-color="Grey" data-application="Indoor">
+        <div class="pc-thumb-wrap">
+          <button type="button" class="pc-thumb" style="background-image:url('assets/img/products/wooden-flooring.jpg')" aria-label="Zoom Laminate Plank — Grey Ash image" data-zoom-img="assets/img/products/wooden-flooring.jpg" data-zoom-name="Laminate Plank — Grey Ash">
+            <span class="pc-zoom-icon" aria-hidden="true">&#10530;</span>
+          </button>
+        </div>
+        <div class="pc-body">
+          <div class="pc-head">
+            <h3>Laminate Plank — Grey Ash</h3>
+            <span class="pc-sku">SD-WFL-403</span>
+          </div>
+          <ul class="pc-specs">
+            <li><span>Material</span><span>High-density laminate</span></li>
+            <li><span>Colour</span><span>Cool grey ash</span></li>
+            <li><span>Thickness</span><span>8 mm</span></li>
+            <li><span>Dimensions</span><span>192 x 1288 mm plank</span></li>
+            <li><span>Finish</span><span>Matte texture</span></li>
+          </ul>
+          <ul class="pc-metrics">
+            <li><span>Stock</span><span class="pc-stock made-to-order">Made to Order</span></li>
+            <li><span>MOQ</span><span>100 sqm</span></li>
+            <li><span>Lead time</span><span>10–12 working days</span></li>
+            <li><span>Warranty</span><span>8 years</span></li>
+          </ul>
+          <div class="pc-actions">
+            <a class="btn btn-ghost pc-sample-btn" target="_blank" rel="noopener" href="https://wa.me/918368121845?text=Hi%2C%20I%27d%20like%20to%20request%20a%20sample%20of%20Laminate%20Plank%20%E2%80%94%20Grey%20Ash%20%28SD-WFL-403%29.%20My%20project%20is%20located%20in%20%5BCity%5D%2C%20and%20the%20approximate%20area%20is%20%5BArea%20sq%20ft%5D.">Request a Sample</a>
+            <label class="pc-enquiry-toggle">
+              <input type="checkbox" class="pc-enquiry-checkbox" data-sku="SD-WFL-403" data-name="Laminate Plank — Grey Ash">
+              <span class="pc-toggle-box" aria-hidden="true"></span>
+              <span class="pc-toggle-label">Add to Enquiry</span>
+            </label>
+          </div>
+        </div>
+      </article>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
