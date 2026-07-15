@@ -13,6 +13,10 @@
   <url><loc>https://www.sdecors.in/about.html</loc><priority>0.6</priority></url>
   <url><loc>https://www.sdecors.in/contact.html</loc><priority>0.8</priority></url>
   <url><loc>https://www.sdecors.in/wholesale.html</loc><priority>0.85</priority></url>
+  <url><loc>https://www.sdecors.in/privacy-policy.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.sdecors.in/terms-and-conditions.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.sdecors.in/shipping-and-delivery.html</loc><priority>0.3</priority></url>
+  <url><loc>https://www.sdecors.in/returns-and-cancellation.html</loc><priority>0.3</priority></url>
   <url><loc>https://www.sdecors.in/faq.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.sdecors.in/blog.html</loc><priority>0.7</priority></url>
   <url><loc>https://www.sdecors.in/blog-window-blinds-guide.html</loc><priority>0.6</priority></url>
