@@ -61,9 +61,10 @@ document.addEventListener('DOMContentLoaded', function () {
       'Window Blinds': 'blinds',
       'Wallpaper': 'wallcovering',
       'Wall Panels': 'wallcovering',
-      'Book-Match Panels': 'wallcovering',
+      'Book Match Sheets': 'wallcovering',
       'UV Marble Sheets': 'wallcovering',
       '3D Panels': 'wallcovering',
+      'Wooden Vectra Panels': 'wallcovering',
       'Wooden Flooring': 'flooring',
       'Carpet Flooring': 'flooring',
       'More than one category': 'multi'

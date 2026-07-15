@@ -20,6 +20,14 @@
   status = 301
   force = true
 
+# Book-Match Panels was restructured into Book Match Sheets (with Marble and
+# Fabric sub-types) -- preserve any inbound links/bookmarks to the old URL.
+[[redirects]]
+  from = "/book-match-panels.html"
+  to = "/book-match-sheets.html"
+  status = 301
+  force = true
+
 # Netlify serves /404.html automatically with a real 404 status for any
 # unmatched path, no redirect rule required -- this line is just explicit
 # about it so the behaviour isn't accidentally overridden later.
